@@ -1,12 +1,13 @@
 ###############################################
 # RabbitMQ in Action
 # Chapter 5 - Shovel Test Producer
-# 
+#
 # Requires: pika >= 0.9.5
-# 
+#
 # Author: Jason J. W. Williams
 # (C)2011
 ###############################################
+
 import sys, json, pika, random
 
 AMQP_HOST = sys.argv[1]
